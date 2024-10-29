@@ -1,0 +1,76 @@
+Atividade avaliativa 01
+
+Métodos de ordenação: Seleção e Bolha
+
+Data de entrega: 13/09/2023
+
+Instruções:
+Os trabalhos devem ser entregues no https://runcodes.icmc.usp.br/, na disciplina com código H2PY. O exercício será feito em grupo formado por 3 ou 4 alunos, o qual será definido por sorteio. O grupo sorteado será indicado no e-disciplinas. Todos os integrantes devem submeter código no runcodes.
+
+
+Atividade:
+
+Faça um programa em C que receba o nome do método de ordenação (no caso, selecao ou bolha), o número N de elementos de um vetor. Após isso, leia os N elementos e imprima as indicações de todas as comparações e trocas realizadas pelo método escolhido, seguido do vetor ordenado.
+
+As comparações e trocas devem ser impressas de acordo com os índices dos elementos envolvidos na operação. Por exemplo, se o elemento do índice 3 foi comparado com o elemento do índice 7, então deve-se imprimir C 3 7. Se o elemento de índice 2 foi trocado com o elemento de índice 5, deve-se imprimir T 2 5.
+
+
+Exemplo de entrada e saída:
+
+
+Entrada
+
+Saída
+
+selecao
+
+4
+
+3 6 5 2
+
+C 0 1
+
+C 0 2
+
+C 0 3
+
+T 0 3
+
+C 1 2
+
+C 2 3
+
+T 1 3
+
+C 2 3
+
+2 3 5 6
+
+bolha
+
+4
+
+3 6 5 2
+
+C 0 1
+
+C 1 2
+
+T 1 2
+
+C 2 3
+
+T 2 3
+
+C 0 1
+
+C 1 2
+
+T 1 2
+
+C 0 1
+
+T 0 1
+
+2 3 5 6
+
