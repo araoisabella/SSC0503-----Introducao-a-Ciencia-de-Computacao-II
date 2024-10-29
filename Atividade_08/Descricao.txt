@@ -1,0 +1,36 @@
+Atividade avaliativa 08
+
+Busca
+
+Data de entrega: 16/11/2023
+
+Instruções:
+Os trabalhos devem ser entregues no run.codes, na disciplina com código H2PY. O exercício será feito em grupo formado por 3 ou 4 alunos. Todos os integrantes devem submeter o mesmo código, que deve incluir um comentário com o nome e número USP de todos. Indique o grupo no link: https://forms.gle/7W2gSxioXCPNPxsU6 
+
+Atividade:
+Faça um programa em C que leia um número N de elementos de um vetor de inteiros V, e em seguida leia os N elementos de V. Após isso, leia um número inteiro K, seguido da leitura de K inteiros. O seu programa deverá busca todos os K números no vetor V, e escrever 1 se o elemento foi encontrado em V e 0 caso contrário.
+
+
+Exemplo de entrada e saída:
+
+Entrada
+
+Saída
+
+10
+
+3 8 1 2 9 3 7 7 3 1
+
+5
+
+4 2 7 5 1
+
+0
+
+1
+
+1
+
+0
+
+1
